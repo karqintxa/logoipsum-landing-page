@@ -51,11 +51,6 @@ No build step or dependencies are required.
 
 For a local server, use the Live Server extension in VS Code or run `npx serve`.
 
-## Known Issues
-
-- The `Images/` folder (logo, icons, illustrations, favicon) is not included yet, so images will not display until it is added.
-- Placeholder text (logo name, footer copyright) should be replaced before production use.
-
 ## Author
 
 Danieel: front-end development and landing page layout.
