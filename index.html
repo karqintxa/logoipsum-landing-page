@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logoipsum</title> 
+    <link rel="shortcut icon" href="Images/Favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container"> 
+            <nav class="header-nav">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <img src="Images/Logo.svg" class="header-logo"> 
+                <ul class="header-list">
+                    <li><a class="header-list-link header-list-link-active" href="#home" data-section="home">Home</a></li>
+                    <li><a class="header-list-link" href="#features" data-section="features">Features</a></li> 
+                    <li><a class="header-list-link" href="#pricing" data-section="pricing">Pricing</a></li>
+                </ul>
+                <button href="https://madebydaniel.online/" class="header-button">Get started</button>
+            </nav>
+        </div> 
+    </header> 
+    <main>
+      <section class="hero" id="home"> 
+        <div class="hero-container"> 
+            <div class="hero-content"> 
+                <div class="hero-text"> 
+                    <h1 class="hero-title">Grow your subscription business</h1> 
+                    <p class="hero-desc">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p> 
+                </div> 
+                <div class="hero-buttons"> 
+                    <button class="hero-button">Get Started</button> 
+                    <a  class="down-button" href="#company-logos"> 
+                        <img src="Images/Hero/Down arrow.svg">
+                    </a>
+                </div> 
+                <img class="hero-image" src="Images/Hero/Hero 3D.svg">
+            </div>
+        </div>
+      </section> 
+      <section class="company-logos" id="company-logos"> 
+        <div class="company-logos-container">
+            <img class="company-logo1" src="Images/Company logos/company logo 1.svg"> 
+            <img class="company-logo2" src="Images/Company logos/company logo 2.svg"> 
+            <img class="company-logo3" src="Images/Company logos/company logo 3.svg">
+            <img class="company-logo4" src="Images/Company logos/company logo 4.svg">
+            <img class="company-logo5" src="Images/Company logos/company logo 5.svg">
+        </div>
+      </section> 
+      <section class="features" id="features"> 
+        <div class="features-container">
+            <div class="feature"> 
+                <img src="Images/Features/feature1.svg"> 
+                <div class="feature-content">
+                <h3 class="feature-title">Subscription index</h3> 
+                <p class="feature-desc">A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.</p> 
+                <a href="/" class="feature-button">Learn more</a> 
+                </div>
+            </div>
+            <div class="feature"> 
+                <div class="feature-content">
+                <h3 class="feature-title">In-depth metrics</h3> 
+                <p class="feature-desc">Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
+                <a href="/" class="feature-button">Learn more</a> 
+                </div>
+                <img src="Images/Features/feature2.svg"> 
+            </div>
+        </div>
+      </section>
+      <section class="mini-features">
+        <div class="mini-features-container">
+            <div class="mini-feature">
+                <img class="mini-feature-icon" src="Images/Features/card icon.svg">
+                <h3 class="mini-feature-title">Benchmarks</h3>
+                <p class="mini-feature-desc">See how you stack up against comparable companies in similar stages.</p>
+            </div> 
+            <div class="mini-feature">
+                <img class="mini-feature-icon" src="Images/Features/calculator.svg">
+                <h3 class="mini-feature-title">Pricing Audit</h3>
+                <p class="mini-feature-desc">Benchmark the health of your monetization and pricing strategy.</p>
+            </div> 
+            <div class="mini-feature">
+                <img class="mini-feature-icon" src="Images/Features/camera.svg">
+                <h3 class="mini-feature-title">Retention Audit</h3>
+                <p class="mini-feature-desc">Audit where revenue leakage exists and where you can increase retention.</p>
+            </div>
+        </div>
+      </section> 
+      <section class="subscription" id="pricing">
+        <div class="subscription-container">
+            <header class="subscription-header">
+                <h2 class="subscription-title">Get the right plan for future product.</h2> 
+                <div class="subscription-tabs">
+                    <button class="Yearly is-active" aria-pressed="true">Yearly</button> 
+                    <button class="Monthly" aria-pressed="false">Monthly</button>
+                </div>
+            </header> 
+            <div class="subscription-plans">
+                <div class="subscription-plan">
+                    <p class="subscription-plan-title">Starter</p>
+                    <h2 class="subscription-price">Free</h2>
+                    <ul class="subscription-features">
+                        <li>1 Website</li>
+                        <li>5 GB Hosting</li>
+                        <li>Limited Support</li>
+                    </ul>
+                    <button href="https://madebydaniel.online/" class="plan-button">Get Started</button>
+                </div>
+                <div class="subscription-premium">
+                    <p class="subscription-premium-title">Premium</p>
+                    <h2 class="subscription-price-premium" data-yearly-price="29" data-monthly-price="35">$29<span class="span-premium">/month</span></h2>
+                    <ul class="subscription-features-premium">
+                        <li>10 Websites</li>
+                        <li>15 GB Hosting</li>
+                        <li>Premium Support</li>
+                    </ul>
+                    <button href="https://madebydaniel.online/" class="plan-button-premium">Get Started</button>
+                </div>
+                <div class="subscription-plan">
+                    <p class="subscription-plan-title">Enterprise</p>
+                    <h2 class="subscription-price" data-yearly-price="49" data-monthly-price="55">$49<span>/month</span></h2>
+                    <ul class="subscription-features">
+                        <li>Unlimited Websites</li>
+                        <li>50 GB Hosting</li>
+                        <li>Premium Support</li>
+                    </ul>
+                    <button class="plan-button">Get Started</button>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main> 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const yearlyTab = document.querySelector('.Yearly');
+            const monthlyTab = document.querySelector('.Monthly');
+            const subscriptionPrices = document.querySelectorAll('[data-yearly-price][data-monthly-price]');
+
+            function setBillingPeriod(isMonthly) {
+                yearlyTab.classList.toggle('is-active', !isMonthly);
+                monthlyTab.classList.toggle('is-active', isMonthly);
+                yearlyTab.setAttribute('aria-pressed', String(!isMonthly));
+                monthlyTab.setAttribute('aria-pressed', String(isMonthly));
+
+                subscriptionPrices.forEach(price => {
+                    const amount = isMonthly ? price.dataset.monthlyPrice : price.dataset.yearlyPrice;
+                    price.firstChild.textContent = `$${amount}`;
+                });
+            }
+
+            yearlyTab.addEventListener('click', () => setBillingPeriod(false));
+            monthlyTab.addEventListener('click', () => setBillingPeriod(true));
+
+            const navLinks = document.querySelectorAll('.header-list-link');
+            const sections = Array.from(navLinks, link =>
+                document.getElementById(link.dataset.section)
+            );
+
+            function updateActiveNavLink() {
+                const headerHeight = document.querySelector('.header').offsetHeight;
+                const currentSection = [...sections]
+                    .reverse()
+                    .find(section => section.getBoundingClientRect().top <= headerHeight)
+                    || sections[0];
+
+                navLinks.forEach(link => {
+                    link.classList.toggle(
+                        'header-list-link-active',
+                        link.dataset.section === currentSection.id
+                    );
+                });
+            }
+
+            window.addEventListener('scroll', updateActiveNavLink, { passive: true });
+            window.addEventListener('resize', updateActiveNavLink);
+            updateActiveNavLink();
+        });
+    </script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-nav">
+                <img class="logo" src="Images/Logo.svg">
+                <div class="columns">
+                    <div class="column">
+                        <p class="column-title">Product</p>
+                        <ul class="column-list">
+                            <li><a href="#features" class="column-link">Features</a></li>
+                            <li><a href="#pricing" class="column-link">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Explore</p>
+                        <ul class="column-list">
+                            <li><a href="/" class="column-link">Events</a></li>
+                            <li><a href="/" class="column-link">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Company</p>
+                        <ul class="column-list">
+                            <li><a href="https://madebydaniel.online/" class="column-link">About us</a></li>
+                            <li><a href="https://madebydaniel.online/" class="column-link">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text">
+                    <p class="footer-copyright">© 2026 Welcome. All right reserved.</p>
+                    <a href="/" class="footer-link">Privacy Policy</a>
+                    <a href="/" class="footer-link">Terms of Service</a>
+                </div>
+                <div class="socials">
+                    <a href="#"><img src="Images/Footer/Youtube.svg" alt="Youtube"></a>
+                    <a href="#"><img src="Images/Footer/Twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="Images/Footer/Linkedin.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
