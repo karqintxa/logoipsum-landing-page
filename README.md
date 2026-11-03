@@ -40,17 +40,8 @@ The product helps subscription businesses track market trends, benchmark their m
 | `--white` | `#FFFFFF` | Background             |
 
 ## Getting Started
-
-No build step or dependencies are required.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/karqintxa/logoipsum-landing-page.git
-   ```
-2. Open `index.html` in your browser.
-
-For a local server, use the Live Server extension in VS Code or run `npx serve`.
-
+Landing page URL:
+https://karqintxa.github.io/logoipsum-landing-page/
 ## Author
 
 Danieel: front-end development and landing page layout.
