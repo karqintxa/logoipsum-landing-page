@@ -1,4 +1,4 @@
-# Test Landing Page
+# Logoipsum Landing Page
 
 A responsive landing page for a subscription analytics SaaS, built from a Figma design using HTML, CSS and vanilla JavaScript.
 
