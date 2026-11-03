@@ -45,7 +45,7 @@ No build step or dependencies are required.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/karqintxa/test-landing-page.git
+   git clone https://github.com/karqintxa/logoipsum-landing-page.git
    ```
 2. Open `index.html` in your browser.
 
